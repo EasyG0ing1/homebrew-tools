@@ -1,4 +1,3 @@
-# Formula/snapzap.rb
 class Snapzap < Formula
   desc "SnapZap helps you clean up snapshots on APFS volumes in MacOS"
   homepage "https://github.com/EasyG0ing1/SnapZap"
@@ -6,8 +5,13 @@ class Snapzap < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/EasyG0ing1/SnapZap/releases/download/1.0.0/snapzap-1.0.0-macos-x86_64.tar.gz"
-      sha256 "25ba8e0f23fd119998392decb253393cb4e3180a6a09fb9335b8a52d291bb6e2"
+      url "https://github.com/EasyG0ing1/SnapZap/releases/download/1.0.0/snapzap-1.0.0-macos-x64.tar.gz"
+      sha256 "3164436de6dffceae5245d6e72e2010d022a5e931aa6d23e9ff45563810e64e6"
+    end
+
+    on_arm do
+      url "https://github.com/EasyG0ing1/SnapZap/releases/download/1.0.0/snapzap-1.0.0-macos-arm64.tar.gz"
+      sha256 "016d773a1b27bdfd3674fc4e35ffb7a0f00af1f26232ca7a1e3527d2c3ca87af"
     end
   end
 
