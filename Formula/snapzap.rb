@@ -1,17 +1,17 @@
 class Snapzap < Formula
   desc "SnapZap helps you clean up snapshots on APFS volumes in MacOS"
   homepage "https://github.com/EasyG0ing1/SnapZap"
-  version "1.0.5"
+  version "1.0.9"
 
   on_macos do
     on_intel do
-      url "https://github.com/EasyG0ing1/SnapZap/releases/download/v1.0.5/snapzap-1.0.5-macos-x64.tar.gz"
-      sha256 "22b3a8d4fdb0af6c377fe1c76017aac14c9d0672e8123fcdf67dea690a1f7214"
+      url "https://github.com/EasyG0ing1/SnapZap/releases/download/1.0.9/snapzap-1.0.9-macos-x64.tar.gz"
+      sha256 "d6d725162fe466f4ee93b59c2dfa08f5e1004fce7c90b30e81f7640e3146cb57"
     end
 
     on_arm do
-      url "https://github.com/EasyG0ing1/SnapZap/releases/download/v1.0.5/snapzap-1.0.5-macos-arm64.tar.gz"
-      sha256 "765016159902f24894a8b4151fcd8dd00c746584a41fd6fa105c6023ce6ba9b2"
+      url "https://github.com/EasyG0ing1/SnapZap/releases/download/1.0.9/snapzap-1.0.9-macos-x64.tar.gz"
+      sha256 "9b3eda33854ce729f74a34dc1a486c8228b5bf72fdaabec6f89021e5a2f79f85"
     end
   end
 
